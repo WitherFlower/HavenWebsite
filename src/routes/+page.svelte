@@ -12,7 +12,11 @@
 <h1>WitherFlower's Backyard (or something)</h1>
 
 <section>
-	<Counter />
+	<img
+		class="counter"
+		src="https://count.pek.li/get/@:WitherWebsite?theme=gelbooru"
+		alt=":WitherWebsite"
+	/>
 </section>
 
 <style>
