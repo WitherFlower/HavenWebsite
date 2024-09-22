@@ -15,7 +15,7 @@
 	<img
 		class="counter"
 		src="https://count.pek.li/get/@:WitherWebsite?theme=gelbooru"
-		alt=":WitherWebsite"
+		alt=":VisitCounter"
 	/>
 </section>
 
