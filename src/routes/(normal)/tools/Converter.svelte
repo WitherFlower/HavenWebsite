@@ -5,7 +5,11 @@
 		if (inputString === undefined || inputString.length < 1) {
 			inputString = "0";
 		} else {
-			inputString = parseInt(inputString).toString();
+			try {
+				inputString = BigInt(inputString).toString();
+			} catch (e) {
+				inputString = "0";
+			}
 		}
 	}
 </script>
@@ -15,9 +19,9 @@
 	<p>Input your number here :</p>
 	<input bind:value={inputString} />
 	<h2>HEX</h2>
-	<p>{parseInt(inputString).toString(16)}</p>
+	<p>{BigInt(inputString).toString(16)}</p>
 	<h2>BIN</h2>
-	<p>{parseInt(inputString).toString(2)}</p>
+	<p>{BigInt(inputString).toString(2)}</p>
 </div>
 
 <style>
