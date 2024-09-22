@@ -20,7 +20,7 @@
 		</ul>
 	</nav>
 	<div class="toprightstuff">
-		<a class="toprightcontent" href="/lunatic.html">Lunatic Mode</a>
+		<a class="toprightcontent" href="/lunatic">Lunatic Mode</a>
 	</div>
 </header>
 
